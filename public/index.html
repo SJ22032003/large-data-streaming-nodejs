@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js Streams UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Node.js Streams Demo</h1>
+        <p id="file-info-container"><strong id="file-size-info">0 Bytes</strong> is the file size currently being used to stream</p>
+        <p><strong id="items-fetched">0</strong> Items fetched</p>
+        <div class="controls">
+            <button id="startStream" onclick="startStream()">Start Stream</button>
+            <button id="stopStream" onclick="stopStream()" disabled>Stop Stream</button>
+        </div>
+        <div id="output" class="output"></div>
+        <small>HANDLE THE FILE UI STRUCTURE ACCORDINGLY</small>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
