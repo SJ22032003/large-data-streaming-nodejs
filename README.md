@@ -7,6 +7,10 @@ This project demonstrates how to use Node.js streams and web streams to process 
 ## Example
 <img width="1309" alt="Screenshot 2024-07-21 at 1 25 30 AM" src="https://github.com/user-attachments/assets/6ab336e8-594c-44d7-afa3-9723fbccb734">
 
+## Example Dataset that can be used
+```bash
+https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challenge?select=metadata.csv
+```
 
 ## Features
 
