@@ -4,6 +4,10 @@
 
 This project demonstrates how to use Node.js streams and web streams to process and display large amounts of data efficiently. We will convert a CSV file to JSON and stream the data to the client, which will then render the data in a user-friendly UI.
 
+## Example
+<img width="1309" alt="Screenshot 2024-07-21 at 1 25 30 AM" src="https://github.com/user-attachments/assets/6ab336e8-594c-44d7-afa3-9723fbccb734">
+
+
 ## Features
 
 - **Stream large CSV files to JSON**: Convert large CSV files to JSON and stream the data to the client without loading the entire file into memory.
