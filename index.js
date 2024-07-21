@@ -1,13 +1,16 @@
 import express from "express";
 import csvtojson from "csvtojson";
 import byteSize from "byte-size";
+import status from "express-status-monitor";
 import { stat } from "node:fs/promises"; 
-import { createReadStream } from "node:fs";
+import { createReadStream, readFile } from "node:fs";
 import { Readable, Transform, Writable } from "node:stream";
 import { TransformStream } from "node:stream/web";
 import { setTimeout } from "node:timers/promises"
 
 const app = express();
+
+app.use(status()); // MONITORING THE SERVER STATUS || CHECK ON /status
 
 const fileName = "metadata.csv"; // FILE THAT BE USING | CAN BE OF ANY SIZE | ON ROOT DIRECTORY | CHANGE IT TO YOUR FILE
 
