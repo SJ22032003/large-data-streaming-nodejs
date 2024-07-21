@@ -6,6 +6,7 @@ This project demonstrates how to use Node.js streams and web streams to process 
 
 ## Example
 <img width="1309" alt="Screenshot 2024-07-21 at 1 25 30 AM" src="https://github.com/user-attachments/assets/6ab336e8-594c-44d7-afa3-9723fbccb734">
+<img width="993" alt="Screenshot 2024-07-21 at 1 23 38 PM" src="https://github.com/user-attachments/assets/95295c04-236b-429d-9e65-1e2b43032b60">
 
 ## Example Dataset that can be used
 ```bash
