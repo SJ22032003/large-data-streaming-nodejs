@@ -10,6 +10,8 @@ import { setTimeout } from "node:timers/promises"
 
 const app = express();
 
+console.log(process.pid); // PRINTING THE PROCESS ID
+
 app.use(status()); // MONITORING THE SERVER STATUS || CHECK ON /status
 
 const fileName = "metadata.csv"; // FILE THAT BE USING | CAN BE OF ANY SIZE | ON ROOT DIRECTORY | CHANGE IT TO YOUR FILE
